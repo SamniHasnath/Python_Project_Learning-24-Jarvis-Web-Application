@@ -12,6 +12,8 @@ desktop install required.
 This sits alongside `jarvis-assistant/`, the original terminal/desktop
 version, which is left untouched.
 
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/5df6f701-b028-41d1-9719-5f4350201ed2" />
+
 ## ✨ Features
 
 - 🎙️ **Voice input** — talk to Jarvis with your microphone (Chrome/Edge via the Web Speech API)
