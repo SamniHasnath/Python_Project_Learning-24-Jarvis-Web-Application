@@ -1,5 +1,8 @@
 # 🤖 Jarvis Web
 
+🔗 **Live demo:** [jarvisweb-ryua.onrender.com](https://jarvisweb-ryua.onrender.com)
+*(free-tier instance — may take ~30-60s to wake up if it's been idle)*
+
 A browser-based version of the **Jarvis** voice assistant. The "brain"
 (command routing + OpenAI fallback) runs as a small **FastAPI** service,
 while speech recognition and text-to-speech happen entirely in the browser
