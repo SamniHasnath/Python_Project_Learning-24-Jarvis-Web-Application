@@ -1,11 +1,33 @@
-# Jarvis Web
+# 🤖 Jarvis Web
 
-A browser-based version of the Jarvis assistant. The "brain" (command
-routing + OpenAI fallback) runs as a small FastAPI service; speech-to-text
-and text-to-speech happen in the browser via the Web Speech API.
+A browser-based version of the **Jarvis** voice assistant. The "brain"
+(command routing + OpenAI fallback) runs as a small **FastAPI** service,
+while speech recognition and text-to-speech happen entirely in the browser
+via the **Web Speech API** — open it from any device with a browser, no
+desktop install required.
 
 This sits alongside `jarvis-assistant/`, the original terminal/desktop
 version, which is left untouched.
+
+## ✨ Features
+
+- 🎙️ **Voice input** — talk to Jarvis with your microphone (Chrome/Edge via the Web Speech API)
+- 🔊 **Spoken replies** — every response is read aloud using the browser's speech synthesis
+- ⌨️ **Text chat fallback** — type commands when voice isn't available or supported
+- 🌦️ **Weather lookup** — "what's the weather in Tokyo?"
+- 📰 **News headlines** — top stories pulled live from BBC News
+- 😂 **Jokes on demand** — random one-liners to lighten the mood
+- 💬 **Motivational quotes** — random inspirational quotes
+- 📖 **Wikipedia summaries** — "who is..." / "what is..." style questions
+- 🔍 **Google search** — opens results in a new browser tab
+- ▶️ **YouTube search** — finds and opens videos in a new tab
+- 🌐 **Open any website** — "open github.com"
+- 🎵 **Local music playback** — plays audio files from `static/music/`
+- ⏱️ **Voice-set timers** — "set a timer for 5 minutes", with a spoken alert when done
+- 🪙 **Coin flip & 🎲 dice roll** — for quick random decisions
+- 🕒 **Time & date** — quick server-side clock lookups
+- 🧠 **AI fallback** — anything Jarvis doesn't recognize is answered by OpenAI (optional, needs an API key)
+- 🐳 **Docker-ready** — containerized for easy local runs or deployment to platforms like Render
 
 ## What changed vs. the desktop version
 
@@ -66,4 +88,3 @@ Notes:
   up on the next request — a good example of a "cold start".
 - Each Render instance is ephemeral: anything written to disk (e.g. a
   database) won't persist across deploys/restarts.
-# Python_Project_Learning-24-Jarvis-Web-Application
