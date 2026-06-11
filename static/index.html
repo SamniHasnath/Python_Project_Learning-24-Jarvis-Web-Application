@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jarvis Web Application</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>🤖 Jarvis Web Application</h1>
+
+    <div id="transcript" class="transcript"></div>
+
+    <div class="controls">
+      <button id="micBtn" class="mic-btn">🎤 Start Listening</button>
+      <form id="textForm" class="text-form">
+        <input id="textInput" type="text" placeholder="Or type a command..." autocomplete="off" />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <p id="status" class="status"></p>
+    <audio id="player"></audio>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

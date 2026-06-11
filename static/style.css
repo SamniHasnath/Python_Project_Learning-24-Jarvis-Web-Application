@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.app {
+  width: 100%;
+  max-width: 640px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+h1 {
+  text-align: center;
+  margin: 8px 0;
+}
+
+.transcript {
+  flex: 1;
+  min-height: 320px;
+  max-height: 50vh;
+  overflow-y: auto;
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.msg {
+  padding: 8px 12px;
+  border-radius: 10px;
+  max-width: 85%;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+.msg.user {
+  align-self: flex-end;
+  background: #2563eb;
+  color: white;
+}
+
+.msg.assistant {
+  align-self: flex-start;
+  background: #334155;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mic-btn {
+  padding: 14px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 12px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.mic-btn.listening {
+  background: #dc2626;
+}
+
+.text-form {
+  display: flex;
+  gap: 8px;
+}
+
+.text-form input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.text-form button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #334155;
+  color: #e2e8f0;
+  cursor: pointer;
+}
+
+.status {
+  text-align: center;
+  min-height: 1.2em;
+  color: #94a3b8;
+  font-size: 0.9rem;
+  margin: 0;
+}
