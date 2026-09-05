@@ -7,9 +7,7 @@ Jarvis Web allows users to interact with an intelligent assistant using **voice 
 🔗 **Live Demo:** https://jarvisweb-ryua.onrender.com
 
 > ⏳ **Note:** The live demo is hosted on Render's free tier. If the service has been inactive, it may take approximately **30–60 seconds** to wake up.
-
 ---
-
 ## 📸 Preview
 
 ![Jarvis Web Preview](https://github.com/user-attachments/assets/5df6f701-b028-41d1-9719-5f4350201ed2)
