@@ -653,21 +653,6 @@ Public HTTPS URL
 
 ---
 
-# ⚠️ Render Free Tier Notes
-
-The live version uses a free-tier deployment.
-
-Because of this:
-
-* The service may sleep after inactivity.
-* The first request can take around 30–60 seconds.
-* The application runs inside a container.
-* Local filesystem data is not guaranteed to persist across restarts or deployments.
-
-Therefore, this project is suitable for demonstration and learning, but persistent data should use an external database or storage service.
-
----
-
 # 🔐 Environment Variables
 
 Create a `.env` file:
@@ -948,18 +933,6 @@ The application currently supports:
 # ⭐ Support
 
 If you find this project useful, consider giving the repository a ⭐ on GitHub.
-
----
-
-# 📄 License
-
-Add your preferred license here.
-
-For example:
-
-```text
-MIT License
-```
 
 ---
 
