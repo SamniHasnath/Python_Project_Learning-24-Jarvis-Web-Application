@@ -1,4 +1,4 @@
-# 🤖 Jarvis Web - AI Voice Assistant
+# 🤖 Jarvis Web - Personal AI Voice Assistant
 
 A browser-based **Jarvis-style AI voice assistant** built with **FastAPI, JavaScript, and the Web Speech API**.
 
